@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal de Búsqueda</title>
+    <link rel="stylesheet" href="/CSS/Busqueda.css" />
+  </head>
+  <body>
+    <!-- Modal de Búsqueda -->
+    <div class="search-modal" id="searchModal">
+      <div class="search-content">
+        <button class="search-close" id="searchClose">&times;</button>
+
+        <div class="search-input-wrapper">
+          <input
+            type="text"
+            class="search-input"
+            id="searchInput"
+            placeholder="Buscar productos..."
+            autocomplete="off"
+          />
+          <button class="search-btn-modal" id="searchBtnModal">Buscar</button>
+        </div>
+
+        <div class="search-results" id="searchResults">
+          <div class="search-suggestions">
+            <h3>Búsquedas populares</h3>
+            <div class="search-tags">
+              <span class="search-tag">Sudaderas</span>
+              <span class="search-tag">Chamarra</span>
+              <span class="search-tag">Pants</span>
+              <span class="search-tag">Accesorios</span>
+              <span class="search-tag">Denim</span>
+              <span class="search-tag">Oversize</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/JS/Busqueda.js"></script>
+  </body>
+</html>
